@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="Coffee.css">
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+	<img src="coffee-logo.webp">
+	<p>Coffee Shop</p>
+	</div>
+	<nav>
+		<div class="links">
+		<a href="index.html">HOME</a>
+		<a href="product.html">PRODUCTS</a>
+		<a href="contact.html">CONTACT</a>
+		</div>
+	</nav>
+</div>
+<div class="content">
+	<ul class="slides">
+		<li class="slide"><img src="b1.webp"></li>
+		<li class="slide"><img src="b2.webp"></li>
+		<li class="slide"><img src="b3.webp"></li>
+		<li class="slide"><img src="b4.webp"></li>
+		<li class="slide"><img src="b5.webp"></li>
+		<li class="slide"><img src="b6.webp"></li>
+		<li class="slide"><img src="b7.webp"></li>
+		<li class="slide"><img src="b8.webp"></li>
+	</ul>
+	<p>Good Ideas Starts With <b>Brainstorming,</b> Great Ideas Starts With <b>Coffee.</b></p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){	
+		var cs=1;
+		var $slider=$(".slides");
+		var sc=$slider.children().length;
+		var st=3000;
+		var speed=1000;
+		setInterval(function(){
+			$slider.animate({marginLeft:'-=1349px'},speed,function(){
+				cs++;
+				if(cs===sc){
+					cs=1;
+					$(this).css("margin-left","0px");
+				}
+			});
+		},st);
+	});
+	</script>
+</body>
+</html>

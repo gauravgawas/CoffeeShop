@@ -1,0 +1,189 @@
+*{
+	margin:0px;
+}
+.header{
+	display: inline-flex;
+	width: 100%;
+	background-color: #0a2d42;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+}
+.logo{
+	width: 140px;
+	text-align: center;
+	padding: 10px;
+}
+.logo img{
+	width: 50%;
+}
+.logo p{
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+}
+nav{
+	width: 100%;
+}
+.links{
+	float: right;
+	padding: 40px;
+	margin-right: -20px;
+}
+.links a{
+	padding: 5px;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 90%;
+}
+.content{
+	width: 1349px;
+	height: 650px;
+	margin: 0px;
+	overflow: hidden;
+}
+.content .slides{
+	display: block;
+	width: 20000px ;
+    height: 650px;
+    margin: 0px;
+    list-style: none;
+	padding: 0px;
+}
+.content .slides .slide{
+	float: left;
+	width: 1349px;
+	height: 650px;
+}
+.content .slides .slide img{
+	width: 100%;
+}
+.content p{
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	font-family: script;
+	font-size: 300%;
+	text-shadow: 2px 2px 3px #fff;
+	background: rgba(255,255,255,0.5);
+	border-radius: 50px;
+}
+.content b{
+	color: #0a2d42;
+}
+.menu{
+	position: relative;
+	top: 100px;
+	background-image: url("productimg.webp");
+	background-size: cover;
+	text-align: center;
+}
+.image{
+	display: inline-block;
+	padding: 32px;
+
+}
+.image p{
+	margin: auto;
+}
+.menu img{
+	width:200px;
+	height: 200px;
+	margin:30px;
+	border: 5px solid aliceblue;
+}
+.menu p{
+	text-align: center;
+	width: 200px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+#done{
+	font-family: helvetica;
+	font-weight: bold;
+	background-color: #0a2d42;
+	color: whitesmoke;
+	border-color: whitesmoke;
+	border-radius: 10px;
+	margin-bottom:20px;
+	width: 200px;
+	height: 50px;
+}
+.contactdetail{
+	background-image: url("graphic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 100px;
+	height: 800px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+.cf{
+	font-family: helvetica;
+	font-size: 50px;
+	color: #0a2d42;
+	text-shadow: 3px 3px 5px black;
+}
+.contactdetail p{
+	background-color: rgba(255,255,255,0.5);;
+	position: relative;
+	top:200px;
+	padding: 20px;
+	border-radius: 50px;
+	width:50%;
+	margin: auto;
+}
+.head{
+  	position: relative;
+	top:100px;
+	background-color: cadetblue; 
+	text-align: center;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	color: #0a2d42;
+}
+.head1 p{
+	text-align: center;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	width: 100%;
+	color: #0a2d42;
+	background-color: cadetblue;
+}
+.order{
+	position: relative;
+	top:100px;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+}
+
+form{
+	background-image: url("orderimg.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	margin: auto;
+	font-family: helvetica;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+form fieldset{
+	border-radius: 10px;
+}
+form input{
+	margin: 10px;
+	padding: 8px;
+	border-radius: 10px;
+}
+form label{
+	font-weight: bold;
+	font-family: helvetica;
+}
